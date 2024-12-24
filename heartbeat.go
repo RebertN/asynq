@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/RebertN/asynq/internal/base"
+	"github.com/RebertN/asynq/internal/log"
+	"github.com/RebertN/asynq/internal/timeutil"
 	"github.com/google/uuid"
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/log"
-	"github.com/hibiken/asynq/internal/timeutil"
 )
 
 // heartbeater is responsible for writing process info to redis periodically to

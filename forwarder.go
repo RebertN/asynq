@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/log"
+	"github.com/RebertN/asynq/internal/base"
+	"github.com/RebertN/asynq/internal/log"
 )
 
 // A forwarder is responsible for moving scheduled and retry tasks to pending state
